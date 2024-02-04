@@ -1,0 +1,128 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Big burger</title>
+    <link rel="icon" type="image/x-icon" href="" />
+    <link href="style.css" rel="stylesheet" type="text/css" media="all" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="Nicolaou Iouli" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="index.html" class="skeumorph"><p>home</p></a>
+        <a href="contact.html" class="skeumorph"><p>contact</p></a>
+      </nav>
+    </header>
+
+    <main>
+
+      <div>
+        <h1>Contact</h1>
+      </div>
+
+      <div class="box" id="box">
+
+        <div id="errors">
+
+        </div>
+       
+        <form action="" id="my-form" class="contact skeumorph" style="width: 80%;">
+          
+          <div style=" width:50%" >
+            <div style="margin: 1vw;">
+              <label for="email">Email</label>
+              <input style="width: 100%;" type="text" name="email" id="email" placeholder="Email">
+            </div>
+
+            <div style="margin: 1vw;">
+              <label for="nom">Nom</label><br>
+              <input style="width: 100%;" type="text" name="nom" id="nom" placeholder="Nom">
+            </div>
+
+            <div style="margin: 1vw;">
+              <label for="ville">Ville</label><br>
+              <input style="width: 100%;" type="text" name="ville" id="ville" placeholder="ville">
+            </div>
+
+            <div style="margin: 1vw;">
+              <label for="pays">Pays</label><br>
+              <select name="pays" id="pays">
+                <option value ="selectionner">Selectionner</option>
+                  <option value="Français">Français</option>
+                  <option value="Tunisien">Tunisien</option>
+                  <option value="Allemand">Allemand</option>
+                  <option value="Comorien">Comorien</option>
+                  <option value="Vietnamien">Vietnamien</option>
+                  <option value="Belge">Belge</option>
+                  <option value="Portugais">Portugais</option>
+                  <option value="Cambodge">Cambodge</option>
+                  <option value="Chinois">Chinois</option>
+                  <option value="Algérie">Algérie</option>
+                  <option value="Maroc">Maroc</option>
+                  <option value="Sénégal">Sénégal</option>
+                  <option value="Colombie">Colombie</option>
+                  <option value="Bulgarie">Bulgarie</option>
+              </select>
+          </div>
+
+          </div>
+         
+          <div style=" width:50%" >
+            <div style="margin: 1vw;">
+              <label  for="prenom">Prénom</label><br>
+              <input style="width: 100%;" type="text" name="prenom" id="prenom" placeholder="Prénom">
+            </div>
+
+            <div style="margin: 1vw;">
+              <label for="adresse">Adresse</label><br>
+              <input style="width: 100%;" type="text" name="adresse" id="adresse" placeholder="Adresse">
+            </div>
+            <div style="margin: 1vw;">
+              <label for="codePostal">Code postal</label><br>
+              <input style="width: 100%;" type="text" name="codePostal" id="codePostal" placeholder="Code postal">
+            </div>
+
+            <div style="margin: 1vw;">
+              <label for="photo">Photo de profil (optionnel)</label><br>
+              <input style="width: 100%;" type="file" name="photo" id="photo">
+            </div>
+          </div>
+        
+          <div style="margin: 1vw;  width: 100%;">
+            <label for="mdp">Entrez votre mot de passe</label><br>
+            <input style="width: 100%;" type="text" name="mdp" id="mdp" placeholder="Entrez votre mot de passe">
+          </div>
+
+          <div style="margin: 1vw; width: 100%;">
+            <label for="mdpconfirmation">Confirmez votre mot de passe</label><br>
+            <input style="width: 100%;" type="text" name="mdpconfirmation" id="mdpconfirmation" placeholder="Confirmez votre mot de passe">
+          </div>
+
+
+          <div style="margin: 1vw;  width: 100%;">
+            <label for="condu">Accepter nos conditions d'utilisation</label><br>
+            <input type="checkbox" name="condu" id="condu">
+          </div>
+    
+          <input style="margin: 1vw;" type="submit" value="envoyer">
+      </form>
+        </div>
+
+      </div>
+    </main>
+
+    <footer ><p><b>Iouli Nicolaou</b></p></footer>
+
+  </body>
+
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+  </style>
+
+  <script src="appContact.js"></script>
+
+</html>
